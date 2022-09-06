@@ -8,13 +8,13 @@
 `2 커밋방법`
 
 0. git bash on
-1. git clone [repo url]
-2. git branch (브랜치 확인)
-3. git branch [branch name] (브랜치 생성)
-4. git checkout [branch name] (브랜치 교환)
+1. `git clone [repo url]`
+2. `git branch` (브랜치 확인)
+3. `git branch [branch name]` (브랜치 생성)
+4. `git checkout [branch name]` (브랜치 교환)
 5. 작업 후 push
 
 ## 번외
-- 레파지스토리 충돌 시 git remote -v 확인
-- git remote remove origin (삭제 명령어)
-
+- 레파지스토리 충돌 시 `git remote -v`로 리스트 확인 확인
+- git remote 저장소 추가 `git remote add [remote name] [repo url]`
+- `git remote remove [origin]` (삭제 명령어)
