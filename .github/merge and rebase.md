@@ -5,8 +5,6 @@
 <br>
 
 
-
-
 * [Merge와 Reabse 차이](#Merge와 Reabse 차이)
 * [Merge](#Merge)
 * [Rebase](#Rebase)
