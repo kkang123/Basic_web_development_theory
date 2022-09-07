@@ -13,6 +13,7 @@
 3. `git branch [branch name]` (브랜치 생성)
 4. `git checkout [branch name]` (브랜치 교환)
 5. 작업 후 `git push [remote name] [branch name]`
+6. vsc에서는 변경된 파일을 '+'를 눌러 추가 후 커밋 메세지 작성 후
 
 ## 번외
 - 레파지스토리 충돌 시 `git remote -v`로 리스트 확인 확인
