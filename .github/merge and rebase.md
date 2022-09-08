@@ -8,6 +8,7 @@
 * [Merge와 Reabse 차이](#Merge와-Reabse-차이)
 * [Merge](#Merge)
 * [Rebase](#Rebase)
+* [Commit](#Commit)
     
 
 <br>
@@ -25,6 +26,11 @@ Merge는 branch를 통합하는 것이고, Rebase는 branch의 base를 옮긴다
 
 ## Merge
 
+`git merge [브랜치명]` : '현재'브랜치에서 [브랜치명]의 변경사항을 병합
+
+`git merge`를 통해 다른 브랜치와 병합할 수 있다.
+
+main 브랜치에서 `git merge [branch001]을 하면 branch001을 main브랜치에 병합 하는 것이다.
 
 
 ## Rebase
@@ -39,3 +45,10 @@ A <- B <- C <- D1 <- `[main]`
             <- D2 <- `[master]`
 
 다음 커밋 중 D1, D2 두개의 커밋은 C라는 같은 조상에 시작되었다. 이때, 이 C가 base이다.
+
+
+## Commit
+
+Commit은 변경 내용을 확정 `git commit`
+
+`git commit -m "message"`를 통해 커밋 메세지를 남길 수 있다.
