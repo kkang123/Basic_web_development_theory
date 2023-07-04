@@ -9,7 +9,7 @@
 
 0. git bash on
 1. `git clone [repo url]`
-2. cd [폴더이름] (이동)
+2. `cd [폴더이름]` (사용 폴더 지정)
 3. `git branch` (브랜치 확인)
 4. `git branch [branch name]` (브랜치 생성)
 5. `git checkout [branch name]` (브랜치 교환)
